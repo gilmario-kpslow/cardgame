@@ -1,0 +1,132 @@
+/*
+    Created on : 21/07/2014, 10:48:18
+    Author     : gilmario
+*/
+
+.card{
+    margin: 5px;
+    padding: 0;
+    width: 100px;
+    height: 125px;
+    transition: 0.5s linear;
+    border: 3px solid #0000ff;
+    border-radius: 5px;
+    position: relative;
+    transform: scale(1);
+    z-index: 1;
+    background-color: #888;
+}
+
+.card-fechada{
+    background-color: #6666ff;
+}
+.card-desativada{
+    background-color: #cccccc;
+}
+
+.card-virada{
+    transition: 0.5s linear;
+    transform: scale(1.5) rotatey(360deg) ;
+    z-index: 9999;
+}
+
+.card-virada-emcampo{
+    transition: 0.5s linear;
+    background-color: #99ccff;
+    transform: scale(1);
+}
+
+.selecionada{
+    box-shadow: 0px 0px 5px 5px rgba(255,255,255,0.9);
+    z-index: 9999;
+}
+
+.card-nome{
+    text-align: left;
+    font-size: 10px;
+    border: 1px solid #ffff33;
+    width: 100%;
+}
+
+.tabuleiro{
+    border-radius: 5px;
+    box-shadow: 10px 10px 5px 0px rgba(100,100,100,0.5);
+    border: 1px solid black;
+    margin: 0;
+    padding: 0;
+    min-height: 500px;
+    background-color: #888;
+}
+
+.baralho{
+    margin: 5px;
+    padding: 0;
+    width: 125px;
+    height: 160px;
+    transition: 0.5s linear;
+    background-color: #0000ff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
+}
+.baralho:hover{
+    transition: 0.5s linear;
+    box-shadow: 0px 0px 10px 0px rgba(255,255,255,1);
+}
+
+.maojogador {
+    /*background-color: #FFF;*/
+    /*border: 1px solid #000;*/
+    background-color: #cccccc;
+    /*        height: 180px;
+            padding: 5px;
+            position: fixed;
+            width: 94%;
+            left: 3%;
+            bottom: 2%;
+            z-index: 1;
+            box-shadow: 5px 5px 5px 0px rgba(100,100,100,0.6);*/
+}
+
+.fogo{
+    background-color: #ff0000;
+}
+
+.floresta{
+    background-color: #006666;
+}
+
+.pantano{
+    background-color: #333333;
+}
+
+.agua{
+    background-color:#99ccff;
+}
+
+.planicie{
+    background-color: #ffffff;
+}
+.incolor{
+    background-color: #0000ff;
+}
+
+.center{
+    margin-top: 20px;
+}
+
+.baixo{
+    float: bottom;
+    margin-top: 20px;
+}
+
+.clear{
+    clear: both;
+}
+
+.direita{
+    float: right;
+}
+
+.esquerda{
+    float: left;
+}

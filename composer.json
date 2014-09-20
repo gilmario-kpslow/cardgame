@@ -1,0 +1,30 @@
+{
+    "name": "CardGame Gil",
+    "minimum-stability": "dev",
+    "type": "library",
+    "description": "Jogo de cartas similar ao final fantasy",
+    "keywords": ["framework"],
+    "require": {
+        "php": ">=5.5"
+    },
+    "authors": [
+        {
+            "name": "José Gilmário da Costa Batista",
+            "email": "gilmariosoftware@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "App": "./"
+        }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/gilmario-kpslow/jaspion.git"
+        }
+    ],
+    "require": {
+        "jaspion": "dev-master"
+    }
+}
